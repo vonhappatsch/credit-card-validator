@@ -1,0 +1,16 @@
+{
+  "name": "credit-card-validator",
+  "version": "1.0.0",
+  "description": "Biblioteca JS para validar cartão de crédito",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jéssica Happatsch",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  }
+}

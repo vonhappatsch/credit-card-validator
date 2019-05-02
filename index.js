@@ -2,7 +2,8 @@ const cardNumber = (card) => {
   let value = card
     .toString()
     .split('')
-    .reverse();
+    .reverse()
+    .map(Number);
   return value;
 };
 const check = (value) => {

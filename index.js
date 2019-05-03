@@ -1,6 +1,7 @@
 const cardNumber = (card) => {
   let value = card
     .toString()
+    .replace(/\d+/g)
     .split('')
     .reverse()
     .map(Number);
@@ -41,7 +42,8 @@ function cardValidator(card) {
 }
 module.exports.cardValidator = cardValidator;
 
-console.log(cardValidator('5502881535322117'));
-console.log(cardValidator(5216572988775943));
-console.log(cardValidator(4929988486581206));
-console.log(cardValidator(''));
+console.log(cardValidator('5502 8815 3532 2117'));
+console.log(cardValidator('52165729887759-43'));
+console.log(cardValidator(988486581206));
+console.log(cardValidator('54555555554444'));
+console.log(cardValidator('4300011111111111'));

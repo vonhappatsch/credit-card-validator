@@ -30,13 +30,18 @@ const checkSum = (sum) => {
   }
 };
 function cardValidator(card) {
-  const number = cardNumber(card);
-  const checkOne = check(number);
-  const finalCheck = checkSum(checkOne);
-  return finalCheck;
+  if (card === null || card === '') {
+    return false;
+  } else {
+    const number = cardNumber(card);
+    const checkOne = check(number);
+    const finalCheck = checkSum(checkOne);
+    return finalCheck;
+  }
 }
 module.exports.cardValidator = cardValidator;
 
 console.log(cardValidator('5502881535322117'));
 console.log(cardValidator(5216572988775943));
-console.log(cardValidator(4929988486581206))
+console.log(cardValidator(4929988486581206));
+console.log(cardValidator(''));

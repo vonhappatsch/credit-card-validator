@@ -4,7 +4,8 @@
   "description": "Biblioteca JS para validar cartão de crédito",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint"
   },
   "author": "Jéssica Happatsch",
   "license": "ISC",
@@ -12,5 +13,9 @@
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "mocha": "^6.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vonhappatsch/credit-card-validator"
   }
 }

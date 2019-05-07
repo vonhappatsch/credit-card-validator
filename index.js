@@ -23,12 +23,3 @@ function cardValidator(card) {
   }
 }
 module.exports.cardValidator = cardValidator;
-
-console.log(cardValidator('5502 8815 3532 2117'));
-console.log(cardValidator('3497 7344 3661 071'));
-console.log(cardValidator('52165729887759-43'));
-console.log(cardValidator(988486581206));
-console.log(cardValidator('54555555554444'));
-console.log(cardValidator('4300011111111111'));
-console.log(cardValidator(349921120750648));
-console.log(cardValidator(349758525117332));

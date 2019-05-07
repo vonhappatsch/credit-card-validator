@@ -1,6 +1,6 @@
 {
   "name": "creditcard-validator-jj",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Biblioteca JS para validar cartão de crédito",
   "main": "index.js",
   "scripts": {

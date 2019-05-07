@@ -63,4 +63,14 @@ describe('index test', () => {
       expect(cardValidator.cardValidator('')).to.equal(false);
     });
   });
+  describe('testing JCB credit card number', () => {
+    it('should return true', () => {
+      expect(cardValidator.cardValidator(3568632754221487)).to.equal(true);
+    });
+  });
+  describe('testing Discover credit card number', () => {
+    it('should return true', () => {
+      expect(cardValidator.cardValidator(6011463377855337)).to.equal(true);
+    });
+  });
 });

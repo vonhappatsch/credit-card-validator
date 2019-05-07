@@ -32,6 +32,9 @@ $  npm install creditcard-validator-jj
 - aceitar (com testes) os cartões além de MC, Visa e AE;
 - melhorar experiência com rapidez e mensagens de resultados.
 
+#### versão 1.2.0 (released)
+- testadas as verificações de cartões JBC e Discover (além de MC, Visa e AE);
+
 #### versão 1.0.0 (released)
 - funcionalidades:validação de números de cartão de crédito.
 - valida números de cartões de crédito (testada para MasterCard, Visa e American Express). Após receber o número como string (contendo ou não caracteres especiais) ou dígitos, retorna true para válido e false para inválido. 

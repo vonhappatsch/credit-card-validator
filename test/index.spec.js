@@ -10,7 +10,7 @@ describe('index test', () => {
   });
   describe('example of valid card number from mastercard as digits', () => {
     it('should return true', () => {
-      expect(cardValidator.cardValidator(5282647098312354)).to.equal(true);
+      expect(cardValidator.cardValidator(5372074724288745)).to.equal(true);
     });
   });
   describe('example of valid card from visa as string of numbers', () => {
@@ -25,12 +25,12 @@ describe('index test', () => {
   });
   describe('example of valid card from american express as a string of numbers', () => {
     it('should return true', () => {
-      expect(cardValidator.cardValidator('352629067874677')).to.equal(true);
+      expect(cardValidator.cardValidator('349758525117332')).to.equal(true);
     });
   });
   describe('example of valid card number from american express as digits', () => {
     it('should return true', () => {
-      expect(cardValidator.cardValidator(371780716719925)).to.equal(true);
+      expect(cardValidator.cardValidator(349758525117332)).to.equal(true);
     });
   });
   describe('example of valid card number from mastercard with special digits', () => {
@@ -45,7 +45,7 @@ describe('index test', () => {
   });
   describe('example of valid card number from american express with special digits', () => {
     it('should return true', () => {
-      expect(cardValidator.cardValidator('3460 021474 89636')).to.equal(true);
+      expect(cardValidator.cardValidator('3497 585251 17332')).to.equal(true);
     });
   });
   describe('example of invalid card as string of numbers', () => {
